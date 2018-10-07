@@ -92,7 +92,7 @@ namespace BasicShop.WebUI.Controllers
                     file.SaveAs(Server.MapPath("//Content//ProductImages//") + productToEdit.Image);
                 }
                 productToEdit.Category = product.Category;
-                productToEdit.Category = product.Description;
+                productToEdit.Description = product.Description;
                 productToEdit.Name = product.Name;
                 productToEdit.Price = product.Price;
 
