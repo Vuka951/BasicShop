@@ -106,6 +106,10 @@
       <Project>{DE267022-20DB-438B-BB43-A896FD8656CB}</Project>
       <Name>BasicShop.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BasicShop.Services\BasicShop.Services.csproj">
+      <Project>{3EF4A812-AA15-4B4C-8D75-14A9F387A7D6}</Project>
+      <Name>BasicShop.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BasicShop.WebUI\BasicShop.WebUI.csproj">
       <Project>{97D5FC3C-C3B1-47CB-B3ED-352B70BC07BB}</Project>
       <Name>BasicShop.WebUI</Name>
